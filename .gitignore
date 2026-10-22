@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+
+# Dependencias (por si más adelante se suma backend/node)
+node_modules/
+
+# Logs y temporales
+*.log
+.tmp/

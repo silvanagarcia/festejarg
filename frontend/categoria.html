@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proveedores — FestejARG</title>
+    <meta name="description" content="Proveedores disponibles para tu evento en la categoría elegida.">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <a href="index.html" class="logo">🎉 FestejARG</a>
+        <nav class="nav" id="nav">
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="como-funciona.html">Cómo funciona</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+    </header>
+
+    <!-- ===== ENCABEZADO DE PÁGINA (se completa con JS) ===== -->
+    <section class="page-header">
+        <h1 id="tituloCategoria">Proveedores</h1>
+        <p id="descCategoria">Elegí un proveedor para ver su ficha completa.</p>
+        <a href="servicios.html" class="volver">← Volver a servicios</a>
+    </section>
+
+    <!-- ===== LISTADO DE PROVEEDORES ===== -->
+    <main class="listado">
+        <div class="grid-proveedores" id="gridProveedores">
+            <!-- Las tarjetas se generan desde js/categoria.js -->
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <p>🎉 FestejARG</p>
+        <p>Casamientos · Cumpleaños de 15 · Fiestas</p>
+        <p>&copy; 2026 FestejARG</p>
+    </footer>
+
+    <a href="https://wa.me/5490000000000" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">💬</a>
+
+    <script src="js/datos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/categoria.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FestejARG — Todo para tu evento en un solo lugar</title>
+    <meta name="description" content="Contratá salón, sonido, catering, fotógrafo y más para tu casamiento, cumpleaños de 15 o fiesta.">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- ===== HEADER (en todas las páginas) ===== -->
+    <header class="header">
+        <a href="index.html" class="logo">🎉 FestejARG</a>
+        <nav class="nav" id="nav">
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="como-funciona.html">Cómo funciona</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+    </header>
+
+    <main>
+        <!-- ===== HERO ===== -->
+        <section class="hero">
+            <span class="hero-badge">✨ Organizá tu evento sin estrés</span>
+            <h1>Todo para tu evento, en un solo lugar</h1>
+            <p>Salón, sonido, catering, fotografía y más. Compará proveedores y pedí tu presupuesto sin vueltas.</p>
+            <a href="servicios.html" class="btn btn-primary">Ver servicios</a>
+        </section>
+
+        <!-- ===== CATEGORÍAS ===== -->
+        <section class="categorias">
+            <h2>¿Qué estás buscando?</h2>
+            <div class="grid-categorias" id="gridCategorias">
+                <!-- Las tarjetas se generan desde js/datos.js -->
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER (en todas las páginas) ===== -->
+    <footer class="footer">
+        <p>🎉 FestejARG</p>
+        <p>Casamientos · Cumpleaños de 15 · Fiestas</p>
+        <p>&copy; 2026 FestejARG</p>
+    </footer>
+
+    <!-- ===== BOTÓN FLOTANTE WHATSAPP ===== -->
+    <a href="https://wa.me/5490000000000" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">💬</a>
+
+    <script src="js/datos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
