@@ -22,20 +22,93 @@
     </header>
 
     <main>
-        <!-- ===== HERO ===== -->
-        <section class="hero">
-            <span class="hero-badge">✨ Organizá tu evento sin estrés</span>
-            <h1>Todo para tu evento, en un solo lugar</h1>
-            <p>Salón, sonido, catering, fotografía y más. Compará proveedores y pedí tu presupuesto sin vueltas.</p>
-            <a href="servicios.html" class="btn btn-primary">Ver servicios</a>
+        <!-- ===== HERO CON IMAGEN DE PORTADA ===== -->
+        <section class="hero hero-portada">
+            <div class="hero-contenido">
+                <span class="hero-badge">✨ Organizá tu evento sin estrés</span>
+                <h1>Todo para tu evento, en un solo lugar</h1>
+                <p>Salón, sonido, catering, fotografía y más. Compará proveedores verificados y pedí tu presupuesto sin vueltas.</p>
+                <div class="hero-acciones">
+                    <a href="servicios.html" class="btn btn-primary">Ver servicios</a>
+                    <a href="como-funciona.html" class="btn btn-ghost">Cómo funciona</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FRANJA DE ESTADÍSTICAS ===== -->
+        <section class="stats">
+            <div class="stat">
+                <span class="stat-num">6</span>
+                <span class="stat-label">Categorías de servicios</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">+18</span>
+                <span class="stat-label">Proveedores disponibles</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">100%</span>
+                <span class="stat-label">Presupuestos sin compromiso</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">24h</span>
+                <span class="stat-label">Respuesta promedio</span>
+            </div>
         </section>
 
         <!-- ===== CATEGORÍAS ===== -->
         <section class="categorias">
             <h2>¿Qué estás buscando?</h2>
+            <p class="seccion-intro">Elegí una categoría y descubrí a los mejores proveedores para tu fiesta.</p>
             <div class="grid-categorias" id="gridCategorias">
                 <!-- Las tarjetas se generan desde js/datos.js -->
             </div>
+        </section>
+
+        <!-- ===== POR QUÉ ELEGIRNOS ===== -->
+        <section class="beneficios">
+            <h2>¿Por qué usar FestejARG?</h2>
+            <div class="grid-beneficios">
+                <article class="beneficio">
+                    <div class="beneficio-icono">🔎</div>
+                    <h3>Todo en un lugar</h3>
+                    <p>Dejá de saltar entre WhatsApp, Instagram y recomendaciones. Encontrá todos los servicios juntos.</p>
+                </article>
+                <article class="beneficio">
+                    <div class="beneficio-icono">⚖️</div>
+                    <h3>Compará fácil</h3>
+                    <p>Mirá qué incluye cada proveedor, su zona y sus precios orientativos antes de decidir.</p>
+                </article>
+                <article class="beneficio">
+                    <div class="beneficio-icono">💬</div>
+                    <h3>Contacto directo</h3>
+                    <p>Pedí tu presupuesto por formulario o escribí por WhatsApp. Sin intermediarios ni vueltas.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== TIPOS DE EVENTO ===== -->
+        <section class="eventos">
+            <h2>Para cada tipo de evento</h2>
+            <div class="grid-eventos">
+                <div class="evento-card evento-casamiento">
+                    <span>💍</span>
+                    <h3>Casamientos</h3>
+                </div>
+                <div class="evento-card evento-15">
+                    <span>👑</span>
+                    <h3>Cumpleaños de 15</h3>
+                </div>
+                <div class="evento-card evento-fiesta">
+                    <span>🎊</span>
+                    <h3>Fiestas y egresados</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== LLAMADA A LA ACCIÓN FINAL ===== -->
+        <section class="cta">
+            <h2>¿Empezamos a planear tu evento?</h2>
+            <a href="contacto.html" class="btn btn-primary">Pedir presupuesto</a>
         </section>
     </main>
 
